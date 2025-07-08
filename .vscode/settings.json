@@ -63,6 +63,7 @@
     "*.embeddedhtml": "html",
     "stdio.h": "c",
     "stdlib.h": "c",
-    "threads.h": "c"
-  }
+    "threads.h": "c",
+    "unistd.h": "c"
+}
 }
