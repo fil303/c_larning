@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -g
 
 # Source and output
-SRC = main.c
+SRC = main.c select.c
 OUT = app
 
 # Default target: build and run

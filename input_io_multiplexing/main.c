@@ -4,6 +4,7 @@
 #include <poll.h>
 #include <stdlib.h>
 
+void work_with_select(void);
 struct termios orig_term;
 
 void restore_terminal(){
@@ -24,6 +25,7 @@ void set_raw_mode(){
 }
 
 int main(){
+    work_with_select();
     set_raw_mode(); // Set terminal to raw input mode
 
     struct pollfd pfd = {
