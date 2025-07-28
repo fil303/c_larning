@@ -42,7 +42,7 @@ void work_with_select(){
 // #include <string.h>
 
 // int main() {
-//     fd_set readfds;             // Set of fds to watch
+//     fd_set readfds;             // Set of fds to watch 
 //     struct timeval tv;          // Timeout struct
 
 //     printf("⌨️  Type something within 5 seconds:\n");
