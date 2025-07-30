@@ -39,7 +39,7 @@ void work_with_select(){
 // #include <stdlib.h>
 // #include <unistd.h>   
 // #include <sys/select.h>
-// #include <string.h>
+// #include <string.h>   
 
 // int main() {
 //     fd_set readfds;             // Set of fds to watch 
