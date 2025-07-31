@@ -35,7 +35,7 @@ void work_with_select(){
 }
 
 
-// #include <stdio.h> // m
+// #include <stdio.h> // a
 // #include <stdlib.h>
 // #include <unistd.h>   
 // #include <sys/select.h>
