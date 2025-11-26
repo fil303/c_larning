@@ -1,0 +1,24 @@
+# Basic Makefile to build and run a C program
+
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -g -Wextra
+
+# Source and output
+SRC = main.c
+OUT = wallpaper_changer
+
+# Default target: build and run
+all: build run clean
+
+# Build the executable
+build:
+	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
+
+# Run the executable
+run:
+	./$(OUT) 1
+
+# Clean compiled files
+clean:
+	rm -f $(OUT)
